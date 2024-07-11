@@ -41,7 +41,9 @@ public class Main {
         System.out.println("Remainder : "+(num1%num2));
     }catch (InputMismatchException e){
         System.out.println("Invaild inter,plese inter number");
-        }*/
+        }catch (ArithmeticException e){
+          System.out.println("Error : cannot be divided by zero");
+      }*/
 
         //******************Q2*********************
 
